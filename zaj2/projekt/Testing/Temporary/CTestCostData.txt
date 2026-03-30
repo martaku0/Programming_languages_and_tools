@@ -1,7 +1,0 @@
-PodzbiorTest.Basic 2 0.00145174
-RowneTest.Basic 2 0.000851631
-RoznicaTest.Basic 2 0.00147737
-SumaTest.Basic 2 0.0014331
-SymTest.Basic 2 0.00111
-WspolnaTest.Basic 2 0.00142752
----

@@ -1,5 +1,0 @@
-if(EXISTS "/home/students/k/u/kurowska/Desktop/JiNP/laby/zaj2/projekt/test_operacji[1]_tests.cmake")
-  include("/home/students/k/u/kurowska/Desktop/JiNP/laby/zaj2/projekt/test_operacji[1]_tests.cmake")
-else()
-  add_test(test_operacji_NOT_BUILT test_operacji_NOT_BUILT)
-endif()
