@@ -1,0 +1,165 @@
+Start testing: Mar 17 17:15 CET
+----------------------------------------------------------
+1/6 Testing: PodzbiorTest.Basic
+1/6 Test: PodzbiorTest.Basic
+Command: "/home/students/k/u/kurowska/Desktop/JiNP/laby/zaj2/projekt/test_operacji" "--gtest_filter=PodzbiorTest.Basic" "--gtest_also_run_disabled_tests"
+Directory: /home/students/k/u/kurowska/Desktop/JiNP/laby/zaj2/projekt
+"PodzbiorTest.Basic" start time: Mar 17 17:15 CET
+Output:
+----------------------------------------------------------
+Running main() from /builddir/build/BUILD/gtest-1.15.2-build/googletest-1.15.2/googletest/src/gtest_main.cc
+Note: Google Test filter = PodzbiorTest.Basic
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PodzbiorTest
+[ RUN      ] PodzbiorTest.Basic
+[       OK ] PodzbiorTest.Basic (0 ms)
+[----------] 1 test from PodzbiorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"PodzbiorTest.Basic" end time: Mar 17 17:15 CET
+"PodzbiorTest.Basic" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: RowneTest.Basic
+2/6 Test: RowneTest.Basic
+Command: "/home/students/k/u/kurowska/Desktop/JiNP/laby/zaj2/projekt/test_operacji" "--gtest_filter=RowneTest.Basic" "--gtest_also_run_disabled_tests"
+Directory: /home/students/k/u/kurowska/Desktop/JiNP/laby/zaj2/projekt
+"RowneTest.Basic" start time: Mar 17 17:15 CET
+Output:
+----------------------------------------------------------
+Running main() from /builddir/build/BUILD/gtest-1.15.2-build/googletest-1.15.2/googletest/src/gtest_main.cc
+Note: Google Test filter = RowneTest.Basic
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RowneTest
+[ RUN      ] RowneTest.Basic
+[       OK ] RowneTest.Basic (0 ms)
+[----------] 1 test from RowneTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RowneTest.Basic" end time: Mar 17 17:15 CET
+"RowneTest.Basic" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: RoznicaTest.Basic
+3/6 Test: RoznicaTest.Basic
+Command: "/home/students/k/u/kurowska/Desktop/JiNP/laby/zaj2/projekt/test_operacji" "--gtest_filter=RoznicaTest.Basic" "--gtest_also_run_disabled_tests"
+Directory: /home/students/k/u/kurowska/Desktop/JiNP/laby/zaj2/projekt
+"RoznicaTest.Basic" start time: Mar 17 17:15 CET
+Output:
+----------------------------------------------------------
+Running main() from /builddir/build/BUILD/gtest-1.15.2-build/googletest-1.15.2/googletest/src/gtest_main.cc
+Note: Google Test filter = RoznicaTest.Basic
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RoznicaTest
+[ RUN      ] RoznicaTest.Basic
+[       OK ] RoznicaTest.Basic (0 ms)
+[----------] 1 test from RoznicaTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"RoznicaTest.Basic" end time: Mar 17 17:15 CET
+"RoznicaTest.Basic" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: SumaTest.Basic
+4/6 Test: SumaTest.Basic
+Command: "/home/students/k/u/kurowska/Desktop/JiNP/laby/zaj2/projekt/test_operacji" "--gtest_filter=SumaTest.Basic" "--gtest_also_run_disabled_tests"
+Directory: /home/students/k/u/kurowska/Desktop/JiNP/laby/zaj2/projekt
+"SumaTest.Basic" start time: Mar 17 17:15 CET
+Output:
+----------------------------------------------------------
+Running main() from /builddir/build/BUILD/gtest-1.15.2-build/googletest-1.15.2/googletest/src/gtest_main.cc
+Note: Google Test filter = SumaTest.Basic
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SumaTest
+[ RUN      ] SumaTest.Basic
+[       OK ] SumaTest.Basic (0 ms)
+[----------] 1 test from SumaTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"SumaTest.Basic" end time: Mar 17 17:15 CET
+"SumaTest.Basic" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: SymTest.Basic
+5/6 Test: SymTest.Basic
+Command: "/home/students/k/u/kurowska/Desktop/JiNP/laby/zaj2/projekt/test_operacji" "--gtest_filter=SymTest.Basic" "--gtest_also_run_disabled_tests"
+Directory: /home/students/k/u/kurowska/Desktop/JiNP/laby/zaj2/projekt
+"SymTest.Basic" start time: Mar 17 17:15 CET
+Output:
+----------------------------------------------------------
+Running main() from /builddir/build/BUILD/gtest-1.15.2-build/googletest-1.15.2/googletest/src/gtest_main.cc
+Note: Google Test filter = SymTest.Basic
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SymTest
+[ RUN      ] SymTest.Basic
+[       OK ] SymTest.Basic (0 ms)
+[----------] 1 test from SymTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"SymTest.Basic" end time: Mar 17 17:15 CET
+"SymTest.Basic" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: WspolnaTest.Basic
+6/6 Test: WspolnaTest.Basic
+Command: "/home/students/k/u/kurowska/Desktop/JiNP/laby/zaj2/projekt/test_operacji" "--gtest_filter=WspolnaTest.Basic" "--gtest_also_run_disabled_tests"
+Directory: /home/students/k/u/kurowska/Desktop/JiNP/laby/zaj2/projekt
+"WspolnaTest.Basic" start time: Mar 17 17:15 CET
+Output:
+----------------------------------------------------------
+Running main() from /builddir/build/BUILD/gtest-1.15.2-build/googletest-1.15.2/googletest/src/gtest_main.cc
+Note: Google Test filter = WspolnaTest.Basic
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WspolnaTest
+[ RUN      ] WspolnaTest.Basic
+[       OK ] WspolnaTest.Basic (0 ms)
+[----------] 1 test from WspolnaTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"WspolnaTest.Basic" end time: Mar 17 17:15 CET
+"WspolnaTest.Basic" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 17 17:15 CET

@@ -1,0 +1,31 @@
+apple 150
+Banana 42
+cherry 7
+pineapple 89
+Apple juice 12
+orange 5
+grapefruit 300
+apple 150
+blueberry 22
+BANANA split 99
+watermelon 1
+kiwi 55
+strawberry 7
+green apple 33
+mango 4
+peach 8
+plum 11
+cherry 7
+pear 19
+coconut 102
+
+
+
+rm -rf build/*
+rm -rf ~/.cache/*
+mkdir -p /tmp/$USER/zaj4_build
+cd /tmp/$USER/zaj4_build
+cmake ~/Desktop/JiNP/laby/zaj4
+make
+make test
+./main
