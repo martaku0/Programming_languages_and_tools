@@ -26,7 +26,7 @@ add_executable(main ${SOURCE})
 target_include_directories(main PUBLIC include)
 
 ###############
-# Testy
+# Tests
 ###############
 include(CTest) 
 #find_package(GTest REQUIRED) # local package
