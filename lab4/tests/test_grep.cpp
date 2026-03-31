@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../include/komendy.hpp"
+#include "../include/commands.hpp"
 
 TEST(GrepTest, DefaultNoArguments) {
     std::vector<std::string> expected = {};

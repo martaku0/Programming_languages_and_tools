@@ -1,4 +1,4 @@
-#include "../include/komendy.hpp"
+#include "../include/commands.hpp"
 
 std::vector<std::string> tail(const std::vector<std::string>& lines, const std::vector<std::string>& args) {
     int n = 10; // num of lines (default)

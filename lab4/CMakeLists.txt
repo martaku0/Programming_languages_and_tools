@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 project(
-    zaj4 
+    lab4
     VERSION 0.0.1 
     DESCRIPTION "Sample Linux VSCode/CMake Project"
     LANGUAGES CXX
@@ -42,7 +42,7 @@ set(INSTALL_GTEST OFF CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
 include(GoogleTest)
-add_executable(test_komend 
+add_executable(test_commmands 
     tests/test_grep.cpp
     tests/test_sort.cpp
     tests/test_tail.cpp
@@ -51,7 +51,7 @@ add_executable(test_komend
     src/sort.cpp
     src/tail.cpp
 )
-target_link_libraries(test_komend gtest_main)
-#target_link_libraries(test_komend GTest::gtest_main)
+target_link_libraries(test_commmands gtest_main)
+#target_link_libraries(test_commmands GTest::gtest_main)
 enable_testing()
-gtest_discover_tests(test_komend)
+gtest_discover_tests(test_commmands)

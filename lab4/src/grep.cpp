@@ -1,4 +1,4 @@
-#include "../include/komendy.hpp"
+#include "../include/commands.hpp"
 
 std::vector<std::string> grep(const std::vector<std::string>& lines, const std::vector<std::string>& args){
     bool opt_i = false; // Ignore case

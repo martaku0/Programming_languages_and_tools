@@ -1,4 +1,4 @@
-#include "../include/komendy.hpp"
+#include "../include/commands.hpp"
 
 int main() {
     std::vector<std::string> lines;
