@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
 project(
-    OperacjeNaZbiorach 
+    lab2 
     VERSION 0.0.1 
     DESCRIPTION "Sample Linux VSCode/CMake Project"
     LANGUAGES CXX
