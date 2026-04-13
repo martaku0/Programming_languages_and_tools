@@ -17,6 +17,7 @@ Tools and topics:
 - [lab2 - cmake](#lab2---cmake)
 - [lab3 - algorithms](#lab3---algorithms)
 - [lab4 - strings](#lab4---strings)
+- [lab5 - pointers](#lab5---pointers)
 
 ## Division into laboratory sessions:
 
@@ -170,3 +171,6 @@ make
 ```bash
 make test
 ```
+
+
+### [lab5 - pointers](./lab5)

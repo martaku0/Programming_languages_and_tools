@@ -22,8 +22,8 @@ set(SOURCE
     src/validationFunctions.cpp
     src/vulnerability.cpp
 )
-add_executable(main ${SOURCE})
-target_include_directories(main PUBLIC include)
+add_executable(findMalwareSignature ${SOURCE})
+target_include_directories(findMalwareSignature PUBLIC include)
 
 ###############
 # Tests
@@ -42,10 +42,10 @@ set(INSTALL_GTEST OFF CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
 include(GoogleTest)
-add_executable(test_komend 
-    tests/validationFunctions.cpp
-    
-    src/validationFunctions.cpp
+add_executable(test_functions 
+    tests/test_findMalwareSignature.cpp
+
+    src/findMalwareSignature.cpp
 )
 target_link_libraries(test_functions gtest_main)
 #target_link_libraries(test_functions GTest::gtest_main) # for local
