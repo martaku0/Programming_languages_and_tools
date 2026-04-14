@@ -15,7 +15,6 @@ set(CMAKE_BUILD_TYPE Debug) # '-ggdb'
 
 set(SOURCE 
     src/main.cpp
-    src/butterOverflow.cpp
     src/encryptXOR.cpp
     src/findMalwareSignature.cpp
     src/strcpy.cpp

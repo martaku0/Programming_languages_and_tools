@@ -93,14 +93,45 @@ void xorCrypt(int argc, char* argv[]){
     executionPtr(inputPath, outputPath, xorKey);
 }
 
+void passwordValidation(int argc, char* argv[]){
+    if (argc < 2) {
+        std::cout << "Usage: ./main --password=Password" << std::endl;
+        return;
+    }
+
+    const char* password = argv[1];
+
+    // TABLE of pointers
+    ValidatorFunc validators[] = { hasLength, hasSpecialChar, hasDigit };
+    int numValidators = 3;
+
+    bool isPasswordValid = true;
+
+    std::cout << "[INFO] Password verification: " << password << "\n";
+
+    for (int i = 0; i < numValidators; ++i) {
+        if (!validators[i](password)) {
+            isPasswordValid = false;
+            break; 
+        }
+    }
+
+    if (isPasswordValid) {
+        std::cout << "[SUCCESS] The password has been accepted!" << std::endl;
+    } else {
+        std::cout << "[REJECTED] The password does not meet security requirements." << std::endl;
+    }
+}
+
 int main(int argc, char* argv[]){
     // malwareSig();
 
     // strCpySafe();
     // strCpyButterOverflow();
     
-    xorCrypt(argc, argv);
+    // xorCrypt(argc, argv);
 
+    //passwordValidation(argc, argv);
 
     return 0;
 }
