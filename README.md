@@ -174,3 +174,36 @@ make test
 
 
 ### [lab5 - pointers](./lab5)
+
+**Commands:**
+```bash
+cmake .
+```
+```bash
+make
+```
+```bash
+./main
+```
+```bash
+make test
+```
+
+- Prepare input file:
+```bash
+echo "This is a top-secret message – do not read!" > secret_data.txt
+```
+- Run script:
+```bash
+./main --input=secret_data.txt --output=encrypted_result.bin
+```
+```bash
+./main --input=secret_data.txt --output=hacked.txt ----vulnerability
+```
+- Show files:
+```bash
+cat encrypted_result.bin
+```
+```bash
+cat hacked.txt
+```

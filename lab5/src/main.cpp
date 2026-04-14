@@ -39,7 +39,7 @@ void strCpySafe(){
 }
 
 void strCpyButterOverflow(){
-VulnerableSystem system;
+    VulnerableSystem system;
     
     // Initialization
     system.isAdmin = false;
@@ -61,13 +61,46 @@ VulnerableSystem system;
     std::cout << "Is admin? " << (system.isAdmin ? "Y" : "N") << std::endl;
 }
 
-int main(){
+void xorCrypt(int argc, char* argv[]){
+    std::string inputPath = "";
+    std::string outputPath = "";
+    bool triggerVuln = false;
+    char xorKey = 0x5A; // letter 'Z'
+
+    // Parse argv
+    for (int i = 1; i < argc; ++i) {
+        std::string arg = argv[i];
+        if (arg.find("--input=") == 0) {
+            inputPath = arg.substr(8);
+        } else if (arg.find("--output=") == 0) {
+            outputPath = arg.substr(9);
+        } else if (arg == "--vulnerability") {
+            triggerVuln = true;
+        }
+    }
+
+    if (inputPath.empty() || outputPath.empty()) {
+        std::cout << "Usage: ./main --input=fileIn --output=fileOut [--vulnerability]" << std::endl;
+        return;
+    }
+
+    CryptoFunctionPtr executionPtr = encryptXOR;
+
+    if (triggerVuln) {
+        vulnerability(executionPtr);
+    }
+
+    executionPtr(inputPath, outputPath, xorKey);
+}
+
+int main(int argc, char* argv[]){
     // malwareSig();
 
     // strCpySafe();
     // strCpyButterOverflow();
     
-    
+    xorCrypt(argc, argv);
+
 
     return 0;
 }
