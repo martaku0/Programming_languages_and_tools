@@ -22,8 +22,8 @@ set(SOURCE
     src/validationFunctions.cpp
     src/vulnerability.cpp
 )
-add_executable(findMalwareSignature ${SOURCE})
-target_include_directories(findMalwareSignature PUBLIC include)
+add_executable(main ${SOURCE})
+target_include_directories(main PUBLIC include)
 
 ###############
 # Tests
