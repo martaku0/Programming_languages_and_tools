@@ -1,10 +1,10 @@
 #include "../include/Car.hpp"
 
-Car::Car(int x, int y) 
+Car::Car(int x, int y, Vector2d lowerLeft, Vector2d upperRight) 
     : orientation(MapDirection::NORTH), 
       position(Vector2d(x, y)), 
-      mapBottomLeft(Vector2d(0, 0)), 
-      mapTopRight(Vector2d(4, 4)) 
+      mapBottomLeft(lowerLeft), 
+      mapTopRight(upperRight)
 {}
 
 std::string Car::toString() {

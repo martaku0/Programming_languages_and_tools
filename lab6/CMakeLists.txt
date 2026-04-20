@@ -45,7 +45,7 @@ add_executable(test_functions
     tests/test_Vector2d.cpp
     tests/test_MapDirection.cpp
     tests/test_Car.cpp
-    # tests/test_RectangularMap.cpp
+    tests/test_RectangularMap.cpp
 
     src/Vector2d.cpp
     src/MapDirection.cpp
