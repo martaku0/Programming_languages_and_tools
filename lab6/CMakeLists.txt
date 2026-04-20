@@ -40,9 +40,11 @@ FetchContent_MakeAvailable(googletest)
 
 include(GoogleTest)
 add_executable(test_functions 
-    tests/test_vector.cpp
+    tests/test_Vector2d.cpp
+    tests/test_MapDirection.cpp
 
     src/Vector2d.cpp
+    src/MapDirection.cpp
 )
 target_link_libraries(test_functions gtest_main)
 #target_link_libraries(test_functions GTest::gtest_main) # for local

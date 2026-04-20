@@ -2,13 +2,6 @@
 
 namespace MapDirection
 {
-    enum MapDirection{
-        NORTH,
-        SOUTH,
-        WEST,
-        EAST
-    };
-
     std::string toString(MapDirection dir){
         switch(dir){
             case NORTH: return "Północ";

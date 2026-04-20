@@ -6,7 +6,7 @@ class Vector2d
     int x, y;
 
     public:
-    Vector2d(int x_, int y_){
+    Vector2d(int x, int y){
         this->x = x;
         this->y = y;
     }
