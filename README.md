@@ -18,6 +18,7 @@ Tools and topics:
 - [lab3 - algorithms](#lab3---algorithms)
 - [lab4 - strings](#lab4---strings)
 - [lab5 - pointers](#lab5---pointers)
+- [lab6 - classes and objects](#lab6---classes-and-objects)
 
 ## Division into laboratory sessions:
 
@@ -212,4 +213,31 @@ cat encrypted_result.bin
 ```
 ```bash
 cat hacked.txt
+```
+
+
+### [lab6 - classes and objects](./lab6)
+
+An object-oriented C++ project. It covers 2D vector logic using classes and objects.
+
+**Quick facts:**  
+Prepare your settings in [main.cpp](./lab6/src/main.cpp) file:
+- set map size
+- place the cars on the map
+- run command with selected options (f-forward, b-back, r-right, l-left)
+
+**Commands:**
+- Run simulation exmaple (after succesful compilation):
+```bash
+./main f b r l f f
+```
+- Useful commands:
+```bash
+cmake .
+```
+```bash
+make
+```
+```bash
+make test
 ```
