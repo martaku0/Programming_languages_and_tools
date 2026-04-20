@@ -17,6 +17,7 @@ Tools and topics:
 - [lab2 - cmake](#lab2---cmake)
 - [lab3 - algorithms](#lab3---algorithms)
 - [lab4 - strings](#lab4---strings)
+- [lab5 - pointers](#lab5---pointers)
 
 ## Division into laboratory sessions:
 
@@ -169,4 +170,46 @@ make
 ```
 ```bash
 make test
+```
+
+
+### [lab5 - pointers](./lab5)
+
+Exercises involving pointer operations in C++.  
+An introduction to simple exercises on the topic of cybersecurity.  
+
+**Quick facts:**  
+Before compilation uncomment selected function in [main.cpp](./lab5/src/main.cpp).  
+
+**Commands:**
+```bash
+cmake .
+```
+```bash
+make
+```
+```bash
+./main
+```
+```bash
+make test
+```
+
+- Prepare input file:
+```bash
+echo "This is a top-secret message – do not read!" > secret_data.txt
+```
+- Run script:
+```bash
+./main --input=secret_data.txt --output=encrypted_result.bin
+```
+```bash
+./main --input=secret_data.txt --output=hacked.txt ----vulnerability
+```
+- Show files:
+```bash
+cat encrypted_result.bin
+```
+```bash
+cat hacked.txt
 ```
