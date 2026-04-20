@@ -175,6 +175,12 @@ make test
 
 ### [lab5 - pointers](./lab5)
 
+Exercises involving pointer operations in C++.  
+An introduction to simple exercises on the topic of cybersecurity.  
+
+**Quick facts:**  
+Before compilation uncomment selected function in [main.cpp](./lab5/src/main.cpp).  
+
 **Commands:**
 ```bash
 cmake .
