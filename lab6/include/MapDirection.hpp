@@ -1,9 +1,14 @@
 #pragma once
-#include<iostream>
 #include<string>
 
-namespace MapDirection {
-    enum MapDirection { NORTH, SOUTH, WEST, EAST };
+namespace MapDirection
+{
+    enum MapDirection {
+        NORTH,
+        SOUTH,
+        WEST,
+        EAST
+    };
 
     std::string toString(MapDirection dir);
     MapDirection next(MapDirection dir);

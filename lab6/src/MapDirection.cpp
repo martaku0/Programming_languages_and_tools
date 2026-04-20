@@ -1,4 +1,4 @@
-#include "../include/objects.hpp"
+#include "../include/MapDirection.hpp"
 
 namespace MapDirection
 {

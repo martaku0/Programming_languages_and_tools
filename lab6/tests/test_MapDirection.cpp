@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../include/objects.hpp"
+#include "../include/MapDirection.hpp"
 
 TEST(MapDirectionTest, ToStringConvertsCorrectly) {
     EXPECT_EQ(MapDirection::toString(MapDirection::NORTH), "Północ");

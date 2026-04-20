@@ -1,6 +1,5 @@
 #include <gtest/gtest.h>
-#include "../include/objects.hpp"
-#include "../src/Vector2d.cpp"
+#include "../include/Vector2d.hpp"
 
 TEST(Vector2dTest, EqualityOperatorCorrectlyComparesVectors) {
     Vector2d v1(2, 3);

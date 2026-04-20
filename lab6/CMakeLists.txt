@@ -16,8 +16,10 @@ set(CMAKE_BUILD_TYPE Debug) # '-ggdb'
 set(SOURCE 
     src/main.cpp
     src/MapDirection.cpp
-    src/MoveDirection.cpp
     src/Vector2d.cpp
+    src/Car.cpp
+    src/MapVisualizer.cpp
+    src/RectangularMap.cpp
 )
 add_executable(main ${SOURCE})
 target_include_directories(main PUBLIC include)
@@ -42,9 +44,14 @@ include(GoogleTest)
 add_executable(test_functions 
     tests/test_Vector2d.cpp
     tests/test_MapDirection.cpp
+    tests/test_Car.cpp
+    # tests/test_RectangularMap.cpp
 
     src/Vector2d.cpp
     src/MapDirection.cpp
+    src/Car.cpp
+    src/MapVisualizer.cpp
+    src/RectangularMap.cpp
 )
 target_link_libraries(test_functions gtest_main)
 #target_link_libraries(test_functions GTest::gtest_main) # for local
