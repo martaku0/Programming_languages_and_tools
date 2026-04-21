@@ -18,5 +18,6 @@ class Vector2d
     Vector2d add(Vector2d other);
     Vector2d subtract(Vector2d other);
     Vector2d upperRight(Vector2d other);
+    Vector2d lowerLeft(Vector2d other);
     Vector2d opposite();
 };

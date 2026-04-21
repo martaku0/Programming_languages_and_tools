@@ -40,6 +40,10 @@ Vector2d Vector2d::upperRight(Vector2d other){
     return Vector2d(std::max(this->x, other.x), std::max(this->y, other.y));
 }
 
+Vector2d Vector2d::lowerLeft(Vector2d other){
+    return Vector2d(std::min(this->x, other.x), std::min(this->y, other.y));
+}
+
 Vector2d Vector2d::opposite(){
     return Vector2d(-this->x, -this->y);
 }
