@@ -68,6 +68,14 @@ TEST(Vector2dTest, UpperRightReturnsMaxOfCoordinates) {
     EXPECT_TRUE(result == Vector2d(4, 5));
 }
 
+TEST(Vector2dTest, LowerLeftReturnsMinOfCoordinates) {
+    Vector2d v1(1, 5);
+    Vector2d v2(4, 2);
+    Vector2d result = v1.lowerLeft(v2);
+    
+    EXPECT_TRUE(result == Vector2d(1, 2));
+}
+
 TEST(Vector2dTest, OppositeReturnsInvertedCoordinates) {
     Vector2d v1(2, -3);
     Vector2d result1 = v1.opposite();
